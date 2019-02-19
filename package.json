@@ -1,0 +1,24 @@
+{
+  "name": "l_aguilar_website",
+  "version": "1.0.0",
+  "description": "This is a demo website for L. Aguilar's health services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantrzchan/l_aguilar_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grantrzchan/l_aguilar_website/issues"
+  },
+  "homepage": "https://github.com/grantrzchan/l_aguilar_website#readme",
+  "keywords": [],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.1"
+  }
+}
