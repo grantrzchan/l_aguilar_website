@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512" height="512">
+<g>
+	<polygon style="fill:#FF641A;" points="90,196 60,316 300,316 300,181 222.03,139.417  "/>
+	<path style="fill:#FFDA2D;" d="M391,344.2v56.4L360,451h-30l-16.802-14.401L300,451h-30l-13.799-12.601L240,451h-30l-13.198-13.2   L180,451h-15c-5.098,0-10.203-0.3-15-0.901l-13.799-19.2L120,444.699C50.999,425.2,0,361.3,0,286V181l30,15   c0,54.899,51.599,98.699,120,104.399c5.098,0.3,9.902,0.601,15,0.601h195L391,344.2z"/>
+	<path style="fill:#FDBF00;" d="M391,344.2v56.4L360,451h-30l-16.802-14.401L300,451h-30l-13.799-12.601L240,451h-30l-13.198-13.2   L180,451h-15c-5.098,0-10.203-0.3-15-0.901v-149.7c5.098,0.3,9.902,0.601,15,0.601h195L391,344.2z"/>
+	<g>
+		<g>
+			<path style="fill:#FDBF00;" d="M300,181c0,67.2-65.999,120-150,120S0,248.2,0,181S65.999,61,150,61S300,113.8,300,181z"/>
+		</g>
+	</g>
+	<g>
+		<path style="fill:#D8D8FC;" d="M512,451H360V301h152V451z"/>
+	</g>
+	<g>
+		<rect x="421" y="361" style="fill:#47568C;" width="30" height="30"/>
+	</g>
+	<g>
+		<rect x="300" y="361" style="fill:#FF641A;" width="30" height="90"/>
+	</g>
+	<g>
+		<rect x="240" y="391" style="fill:#FF641A;" width="30" height="60"/>
+	</g>
+	<g>
+		<rect x="180" y="361" style="fill:#FF641A;" width="30" height="90"/>
+	</g>
+	<g>
+		<g>
+			<path style="fill:#FF9100;" d="M150,391v59.099c-10.203-0.599-20.398-2.699-30-5.4V391H150z"/>
+		</g>
+	</g>
+	<path style="fill:#FF9100;" d="M300,181c0,67.2-65.999,120-150,120V61C234.001,61,300,113.8,300,181z"/>
+	<g>
+		<g>
+			<path style="fill:#FFDA2D;" d="M150,106c-58.799,0-105,32.999-105,75c0,41.999,46.201,75,105,75s105-33.001,105-75     C255,138.999,208.799,106,150,106z"/>
+		</g>
+	</g>
+	<path style="fill:#FDBF00;" d="M255,181c0,41.999-46.201,75-105,75V106C208.799,106,255,138.999,255,181z"/>
+	<g>
+		<rect x="105" y="166" style="fill:#FDBF00;" width="90" height="30"/>
+	</g>
+	<rect x="150" y="166" style="fill:#FF9100;" width="45" height="30"/>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</svg>
