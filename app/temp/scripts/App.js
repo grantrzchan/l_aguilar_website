@@ -87,14 +87,17 @@ var mobileMenu  = new __WEBPACK_IMPORTED_MODULE_0__modules_MobileMenu__["a" /* d
 class MobileMenu {
     constructor() {
         this.menuIcon = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".site-header__menu-icon");
+        this.menuContent = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".site-header__menu-content");
         this.events();
     };
         events() {
-            this.menuIcon.click(this.toggleTheMenu);
+            //Prevents this from referring to the click event. Use bind().
+            this.menuIcon.click(this.toggleTheMenu.bind(this));
         };
 
         toggleTheMenu() {
-            console.log("hooray");
+            // console.log("hooray");
+            this.menuContent.toggleClass("site-header__menu-content--is-visible");
         }; 
 };
 /* harmony default export */ __webpack_exports__["a"] = (MobileMenu);
