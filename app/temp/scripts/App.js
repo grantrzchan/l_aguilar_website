@@ -65,42 +65,70 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modules_MobileMenu__ = __webpack_require__(1);
 
 
-var mobileMenu  = new __WEBPACK_IMPORTED_MODULE_0__modules_MobileMenu__["a" /* default */]();
+var _MobileMenu = __webpack_require__(1);
 
+var _MobileMenu2 = _interopRequireDefault(_MobileMenu);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var mobileMenu = new _MobileMenu2.default();
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 
 
-class MobileMenu {
-    constructor() {
-        this.menuIcon = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".site-header__menu-icon");
-        this.menuContent = __WEBPACK_IMPORTED_MODULE_0_jquery___default()(".site-header__menu-content");
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _jquery = __webpack_require__(2);
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var MobileMenu = function () {
+    function MobileMenu() {
+        _classCallCheck(this, MobileMenu);
+
+        this.siteHeader = (0, _jquery2.default)(".site-header");
+        this.menuIcon = (0, _jquery2.default)(".site-header__menu-icon");
+        this.menuContent = (0, _jquery2.default)(".site-header__menu-content");
         this.events();
-    };
-        events() {
+    }
+
+    _createClass(MobileMenu, [{
+        key: "events",
+        value: function events() {
             //Prevents this from referring to the click event. Use bind().
             this.menuIcon.click(this.toggleTheMenu.bind(this));
-        };
-
-        toggleTheMenu() {
+        }
+    }, {
+        key: "toggleTheMenu",
+        value: function toggleTheMenu() {
             // console.log("hooray");
             this.menuContent.toggleClass("site-header__menu-content--is-visible");
-        }; 
-};
-/* harmony default export */ __webpack_exports__["a"] = (MobileMenu);
+            this.siteHeader.toggleClass("site-header--is-expanded");
+        }
+    }]);
+
+    return MobileMenu;
+}();
+
+;
+exports.default = MobileMenu;
 
 /***/ }),
 /* 2 */
