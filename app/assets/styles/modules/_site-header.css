@@ -94,19 +94,21 @@
             display: none;
         }
 
-        &__menu-icon--close-x {
-            &::before {
-                transform: rotate(45deg) scaleX(1.25);
-            }
 
-            .site-header__menu-icon__middle {
-                opacity: 0;
-                transform: scaleX(0);
-            }
+    }
 
-            &::after {
-                transform: rotate(-45deg) scaleX(1.25) translateY(1px);
-            }
+    &__menu-icon--close-x {
+        &::before {
+            transform: rotate(45deg) scaleX(1.25);
+        }
+
+        .site-header__menu-icon__middle {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        &::after {
+            transform: rotate(-45deg) scaleX(1.25) translateX(-1px);
         }
     }
 

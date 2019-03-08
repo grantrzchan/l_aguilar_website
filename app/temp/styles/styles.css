@@ -1104,6 +1104,8 @@ a{
         top: 10px;
         right: 10px;
         z-index: 10;
+
+
     }
 
 .site-header__menu-icon::before {
@@ -1155,24 +1157,26 @@ a{
 
 .site-header__menu-icon {
             display: none
+
+
     }
     }
 
-.site-header__menu-icon__menu-icon--close-x::before {
-                -webkit-transform: rotate(45deg) scaleX(1.25);
-                        transform: rotate(45deg) scaleX(1.25);
-            }
+.site-header__menu-icon--close-x::before {
+            -webkit-transform: rotate(45deg) scaleX(1.25);
+                    transform: rotate(45deg) scaleX(1.25);
+        }
 
-.site-header__menu-icon__menu-icon--close-x .site-header__menu-icon__middle {
-                opacity: 0;
-                -webkit-transform: scaleX(0);
-                        transform: scaleX(0);
-            }
+.site-header__menu-icon--close-x .site-header__menu-icon__middle {
+            opacity: 0;
+            -webkit-transform: scaleX(0);
+                    transform: scaleX(0);
+        }
 
-.site-header__menu-icon__menu-icon--close-x::after {
-                -webkit-transform: rotate(-45deg) scaleX(1.25) translateY(1px);
-                        transform: rotate(-45deg) scaleX(1.25) translateY(1px);
-            }
+.site-header__menu-icon--close-x::after {
+            -webkit-transform: rotate(-45deg) scaleX(1.25) translateX(-1px);
+                    transform: rotate(-45deg) scaleX(1.25) translateX(-1px);
+        }
 
 .site-header__menu-content {
         opacity: 0;
