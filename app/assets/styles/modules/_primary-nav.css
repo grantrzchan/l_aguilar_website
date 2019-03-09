@@ -1,37 +1,44 @@
-.primary-nav{
+.primary-nav {
     padding-top: 10px;
-    @mixin atMedium{
+
+    @mixin atMedium {
         padding-top: 0px;
     }
 
-    &--pull-right{
-        @mixin atMedium{
+    &--pull-right {
+        @mixin atMedium {
             float: right;
         }
     }
-    ul{
+
+    ul {
         margin: 0;
         padding: 0;
         @mixin clearfix;
     }
-    li{
+
+    li {
         /* remove bullets */
         list-style: none;
         display: inline-block;
         padding-right: 7px;
-        @mixin atMedium{
-            padding-right:20px;
+
+        @mixin atMedium {
+            padding-right: 20px;
             float: left;
             display: block;
         }
     }
-    li:last-child{
-        padding-right:0;
-        @mixin atMedium{
+
+    li:last-child {
+        padding-right: 0;
+
+        @mixin atMedium {
             padding-right: 20px;
         }
     }
-    a{
+
+    a {
         color: #fff;
         font-weight: 300;
         text-decoration: none;
@@ -41,11 +48,15 @@
         background-color: rgba($mainBlue, 0.5);
         border-radius: 0.6rem;
 
-        @mixin atMedium{
+        @mixin atMedium {
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
             border-radius: 0;
+
+            &.is-current-link {
+                color: #fabb69
+            }
         }
     }
 }

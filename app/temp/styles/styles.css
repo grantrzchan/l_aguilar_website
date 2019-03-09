@@ -1054,10 +1054,14 @@ a{
 @media (min-width: 800px) {
 
 .site-header {
-        background-color: rbga(#2f5572, 0.3)
+        position: fixed;
+        background-color: rgba(47,85,114, 0.25)
         /* background-image: linear-gradient(rgba($mainBlue, 0.3)); */
 
 }
+        .site-header--dark{
+            background-color: rgba(23,51,72,0.85);
+        }
     }
 
 @media (min-width: 800px) {
@@ -1079,6 +1083,10 @@ a{
         padding: 25px 36px;
         border-bottom-left-radius: 1.5rem;
         border-bottom-right-radius: 1.5rem;
+        -webkit-transition: -webkit-transform 0.3s ease-out;
+        transition: -webkit-transform 0.3s ease-out;
+        transition: transform 0.3s ease-out;
+        transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 
     }
 
@@ -1090,6 +1098,12 @@ a{
                     transform: translateX(0)
 
     }
+
+        .site-header--dark .site-header__logo {
+            -webkit-transform: scale(0.57);
+                    transform: scale(0.57);
+            
+        }
     }
 
 .site-header__logo__graphic {
@@ -1208,25 +1222,25 @@ a{
                     transform: scale(1);
         }
 
-.primary-nav{
+.primary-nav {
     padding-top: 10px;
 }
 
 @media (min-width: 800px) {
 
-.primary-nav{
+.primary-nav {
         padding-top: 0px
 }
     }
 
 @media (min-width: 800px) {
 
-.primary-nav--pull-right{
+.primary-nav--pull-right {
             float: right
     }
     }
 
-.primary-nav ul{
+.primary-nav ul {
         margin: 0;
         padding: 0;
     }
@@ -1237,7 +1251,7 @@ a{
         display: table;
     }
 
-.primary-nav li{
+.primary-nav li {
         /* remove bullets */
         list-style: none;
         display: inline-block;
@@ -1246,25 +1260,25 @@ a{
 
 @media (min-width: 800px) {
 
-.primary-nav li{
-            padding-right:20px;
+.primary-nav li {
+            padding-right: 20px;
             float: left;
             display: block
     }
     }
 
-.primary-nav li:last-child{
-        padding-right:0;
+.primary-nav li:last-child {
+        padding-right: 0;
     }
 
 @media (min-width: 800px) {
 
-.primary-nav li:last-child{
+.primary-nav li:last-child {
             padding-right: 20px
     }
     }
 
-.primary-nav a{
+.primary-nav a {
         color: #fff;
         font-weight: 300;
         text-decoration: none;
@@ -1277,12 +1291,16 @@ a{
 
 @media (min-width: 800px) {
 
-.primary-nav a{
+.primary-nav a {
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
             border-radius: 0
     }
+
+            .primary-nav a.is-current-link {
+                color: #fabb69
+            }
     }
 
 .reveal-item{
