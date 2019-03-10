@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="282.48407"
+   height="60.088993"
+   viewBox="0 0 74.740574 15.898546"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="liliana_consulting.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="176.33705"
+     inkscape:cy="137.63246"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     showguides="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.544697,-33.803743)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.15899467px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.10397486"
+       x="44.686905"
+       y="40.536114"
+       id="text3715"><tspan
+         sodipodi:role="line"
+         id="tspan3713"
+         x="44.686905"
+         y="40.536114"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.87251949px;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';fill:#e6e6e6;stroke-width:0.10397486">Liliana Aguilar</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3717"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none"
+       transform="matrix(0.10397501,0,0,0.10397501,41.597388,27.202974)"><flowRegion
+         id="flowRegion3719"
+         style="fill:#e6e6e6"><rect
+           id="rect3721"
+           width="820"
+           height="291.42856"
+           x="45.714287"
+           y="113.94826"
+           style="fill:#e6e6e6" /></flowRegion><flowPara
+         id="flowPara3723" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3725"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none"
+       transform="matrix(0.10397501,0,0,0.10397501,41.597388,27.202974)"><flowRegion
+         id="flowRegion3727"
+         style="fill:#e6e6e6"><rect
+           id="rect3729"
+           width="365.71429"
+           height="145.71428"
+           x="-102.85714"
+           y="188.23398"
+           style="fill:#e6e6e6" /></flowRegion><flowPara
+         id="flowPara3731" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.15899467px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.10397486"
+       x="54.252583"
+       y="48.556942"
+       id="text3735"><tspan
+         sodipodi:role="line"
+         id="tspan3733"
+         x="54.252583"
+         y="48.556942"
+         style="font-size:5.5453229px;fill:#e6e6e6;stroke-width:0.10397486">Health Management</tspan></text>
+  </g>
+</svg>

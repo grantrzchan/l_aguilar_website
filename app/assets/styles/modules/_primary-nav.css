@@ -39,7 +39,7 @@
     }
 
     a {
-        color: #fff;
+        color: #FFF;
         font-weight: 300;
         text-decoration: none;
         display: block;
@@ -49,14 +49,21 @@
         border-radius: 0.6rem;
 
         @mixin atMedium {
+            color: $darkGreen;
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
             border-radius: 0;
 
-            &.is-current-link {
-                color: #fabb69
+            &.when-page-scrolling {
+                color: #FFF;
             }
+
+            &.is-current-link {
+                color: #2aaf61;
+            }
+
+
         }
     }
 }

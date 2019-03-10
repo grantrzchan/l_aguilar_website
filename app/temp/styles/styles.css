@@ -352,6 +352,9 @@ template {
   display: none;
 }
 
+/* $mainBlue: #2f5572;
+$mainOrange: #d59541; */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
@@ -369,17 +372,18 @@ img {
 }
 
 a{
-     color: #d59541;   
+     color: #24996c;   
 }
 
 .large-hero{
     position: relative;
-    border-bottom: 10px solid #2f5572;
+    border-bottom: 10px solid #1d6a70;
 }
 
 .large-hero__image{
         /* browser default is in-line. Correct to block and avoid white space */
         display: block;
+        opacity: 0.5;
     }
 
 .large-hero__text-content {
@@ -402,7 +406,7 @@ a{
 
 .large-hero__title {
         font-weight: 300;
-        color: #2f5572;
+        color: #1d6a70;
         /* 2.4rem is atSmallest */
         font-size: 2.4rem;
         margin: 0px;
@@ -417,7 +421,7 @@ a{
 
 .large-hero__subtitle {
         font-weight: 300;
-        color: #2f5572;
+        color: #1d6a70;
         font-size: 1.5rem;
         margin: 0px;
     }
@@ -430,9 +434,9 @@ a{
     }
 
 .large-hero__description{
-        color: #FFF;
-        font-size: 1.1rem;
-        font-weight: 100;
+        color: #124347;
+        font-size: 1.0rem;
+        font-weight: 300;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
         max-width: 30rem;
         margin-left: auto;
@@ -447,7 +451,7 @@ a{
     }
 
 .btn{
-    background-color: #2f5572;
+    background-color: #1d6a70;
     color: #ffffff;
     text-decoration: none;
     padding: 0.75rem 1.2rem;
@@ -456,7 +460,7 @@ a{
 }
 
 .btn--orange{
-        background-color: #d59541;
+        background-color: #24996c;
     }
 
 .btn--large{
@@ -544,18 +548,18 @@ a{
     }
 
 .page-section--blue {
-        background-color: #2f5572;
+        background-color: #1d6a70;
         color: #FFF;
     }
 
 .page-section--testimonials {
-        background-color: #e0e6ef;
+        background-color: #edfff4;
     }
 
 @media (min-width: 1010px) {
 
 .page-section--testimonials {
-            background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+            background: url('/assets/images/testimonials-bg-3.jpg') top center no-repeat;
             background-size: cover
     }
     }
@@ -591,7 +595,7 @@ a{
 .headline {
     font-size:1.9rem;
     font-weight: 300;
-    color: #2f5572;
+    color: #1d6a70;
 }
 
 @media (min-width: 530px) {
@@ -606,7 +610,7 @@ a{
     }
 
 .headline--orange {
-        color: #d59541;
+        color: #24996c;
     }
 
 .headline--small {
@@ -808,7 +812,7 @@ a{
     }
 
 .section-title--blue{
-        color: #2f5572;
+        color: #1d6a70;
     }
 
 .section-title--less-margin{
@@ -902,7 +906,7 @@ a{
     }
 
 .testimonial__title {
-        color: #2f5572;
+        color: #1d6a70;
         text-align: center;
         font-size: 1.5rem;
         font-weight: 500;
@@ -910,7 +914,7 @@ a{
     }
 
 .testimonial__subtitle{
-        color:#d59541;
+        color:#24996c;
         text-align: center;
         font-weight: 400;
         font-size: 0.9375rem;
@@ -931,83 +935,119 @@ a{
 /* Do not edit modules/_sprite directly, as it is generated automatically by Gulp. Instead, edit gulp/templates/sprites.js */
 
 .icon{
-            background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+            background-image: url('/assets/images/sprites/sprite-ca684845.svg');
         }
 
 .icon--clear-view-escapes {
     width: 142.4px;
     height: 59.53px;
-    background-position: 0 0;
+    background-position: 0 23.800451538796686%;
 }
 
 .icon--comment {
     width: 64px;
     height: 64px;
-    background-position: 99.70443349753694% 0;
+    background-position: 0 99.84637096774195%;
+}
+
+.icon--diet {
+    width: 71.683px;
+    height: 64px;
+    background-position: 56.941271334498055% 48.233467741935485%;
 }
 
 .icon--facebook {
     width: 21.23px;
     height: 42.01px;
-    background-position: 26.040607071652357% 45.795830448496034%;
+    background-position: 63.35758357123124% 22.25600948183266%;
 }
 
 .icon--fire {
     width: 56px;
     height: 64px;
-    background-position: 0 99.56481481481481%;
+    background-position: 42.741237113402065% 74.03991935483872%;
+}
+
+.icon--fitness {
+    width: 72.748px;
+    height: 64px;
+    background-position: 30.63642197686799% 48.233467741935485%;
 }
 
 .icon--globe {
     width: 64px;
     height: 64px;
-    background-position: 27.586206896551722% 99.56481481481481%;
+    background-position: 99.81766784452296% 0;
+}
+
+.icon--goal {
+    width: 64px;
+    height: 64px;
+    background-position: 0 74.03991935483872%;
+}
+
+.icon--idea {
+    width: 60.377px;
+    height: 64px;
+    background-position: 22.328982670616107% 74.03991935483872%;
 }
 
 .icon--instagram {
     width: 42.01px;
     height: 42.01px;
-    background-position: 63.2917018534157% 49.234556504346486%;
+    background-position: 74.63523394209646% 22.25600948183266%;
+}
+
+.icon--liliana_consulting {
+    width: 282.484px;
+    height: 60.089px;
+    background-position: 0 0;
 }
 
 .icon--mail {
     width: 64px;
     height: 48px;
-    background-position: 0 48.00806451612903%;
+    background-position: 50.31802120141343% 22.760984848484846%;
+}
+
+.icon--measuring-tape {
+    width: 84.021px;
+    height: 64px;
+    background-position: 0 48.233467741935485%;
 }
 
 .icon--rain {
     width: 64px;
     height: 64px;
-    background-position: 99.70443349753694% 59.25925925925926%;
+    background-position: 99.81766784452296% 25.806451612903224%;
 }
 
 .icon--star {
     width: 64px;
     height: 64px;
-    background-position: 59.11330049261084% 99.56481481481481%;
+    background-position: 99.81766784452296% 51.61290322580645%;
 }
 
 .icon--twitter {
     width: 51.78px;
     height: 42.06px;
-    background-position: 94.04330452560171% 98.50700323226104%;
+    background-position: 95.68592913759228% 71.12691709268726%;
 }
 
 .icon--wifi {
     width: 60px;
     height: 64px;
-    background-position: 68.79227053140097% 0;
+    background-position: 62.84912891986063% 74.03991935483872%;
 }
 
 .icon--youtube {
     width: 34.75px;
     height: 42px;
-    background-position: 36.69752421959096% 45.792307692307695%;
+    background-position: 73.16317053642915% 44.303333333333335%;
 }
 
 .site-footer{
-    background-color: #2f5572;
+    background-color: #1d6a70;
     color: #FFF;
     padding: 0.5rem;
     text-align: center;
@@ -1057,19 +1097,19 @@ a{
 
 .site-header--is-expanded {
         /* background-image: linear-gradient(-180deg, $mainBlue, $mainBlue, rgba($mainBlue, 0.95), rgba($mainBlue, 0.85), rgba($mainBlue, 0.6)); */
-        background-color: rgba(47,85,114, 0.55);
+        background-color: rgba(29,106,112, 0.55);
     }
 
 @media (min-width: 800px) {
 
 .site-header {
         position: fixed;
-        background-color: rgba(47,85,114, 0.25)
+        background-color: rgba(29,106,112, 0.25)
         /* background-image: linear-gradient(rgba($mainBlue, 0.3)); */
 
 }
         .site-header--dark{
-            background-color: rgba(23,51,72,0.85);
+            background-color: #124347;
         }
     }
 
@@ -1088,7 +1128,7 @@ a{
                 transform: translateX(-50%) scale(0.8);
         -webkit-transform-origin: 50% 0%;
                 transform-origin: 50% 0%;
-        background-color: #2f5572;
+        background-color: #1d6a70;
         padding: 25px 36px;
         border-bottom-left-radius: 1.5rem;
         border-bottom-right-radius: 1.5rem;
@@ -1138,7 +1178,7 @@ a{
             left: 0;
             width: 20px;
             height: 3px;
-            background-color: #FFF;
+            background-color: #124347;
             -webkit-transform-origin: 0 0;
                     transform-origin: 0 0;
             -webkit-transition: -webkit-transform 0.3s ease-out;
@@ -1153,7 +1193,7 @@ a{
             left: 0;
             width: 20px;
             height: 3px;
-            background-color: #FFF;
+            background-color: #124347;
             -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
         }
@@ -1165,7 +1205,7 @@ a{
             left: 0;
             width: 20px;
             height: 3px;
-            background-color: #FFF;
+            background-color: #124347;
             -webkit-transform-origin: 0 100%;
                     transform-origin: 0 100%;
             -webkit-transition: -webkit-transform 0.3s ease-out;
@@ -1288,27 +1328,32 @@ a{
     }
 
 .primary-nav a {
-        color: #fff;
+        color: #FFF;
         font-weight: 300;
         text-decoration: none;
         display: block;
         padding: 5px 8px;
         font-size: 0.8rem;
-        background-color: rgba(47,85,114, 0.5);
+        background-color: rgba(29,106,112, 0.5);
         border-radius: 0.6rem;
     }
 
 @media (min-width: 800px) {
 
 .primary-nav a {
+            color: #124347;
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
             border-radius: 0
     }
 
+            .primary-nav a.when-page-scrolling {
+                color: #FFF;
+            }
+
             .primary-nav a.is-current-link {
-                color: #fabb69
+                color: #2aaf61;
             }
     }
 
@@ -1376,12 +1421,12 @@ a{
         /* ensure X changes size only diagonally to the bottom left, no stretching up and toward the right */
         -webkit-transform-origin: 100% 0;
                 transform-origin: 100% 0;
-        color: #2f5572;
+        color: #1d6a70;
         cursor: pointer;
     }
 
 .modal__close:hover {
-            color: #d59541;
+            color: #24996c;
         }
 
 .social-icons {
@@ -1389,7 +1434,7 @@ a{
 }
 
 .social-icons__icon {
-        background-color: #d59541;
+        background-color: #24996c;
         /* make all icons sit on their own line */
         display: inline-block;
         margin: 0 5px 5px 5px;

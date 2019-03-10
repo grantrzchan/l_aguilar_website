@@ -11295,7 +11295,9 @@ var StickyHeader = function () {
                 handler: function handler(direction) {
                     if (direction == "down") {
                         that.siteHeader.addClass("site-header--dark");
+                        that.headerLinks.addClass('when-page-scrolling');
                     } else {
+                        that.headerLinks.removeClass('when-page-scrolling');
                         that.siteHeader.removeClass("site-header--dark");
                     };
                 }
@@ -11313,6 +11315,7 @@ var StickyHeader = function () {
                         if (direction = "down") {
                             var matchingHeaderLink = currentPageSection.getAttribute('data-matching-link');
                             that.headerLinks.removeClass('is-current-link');
+                            // that.headerLinks.addClass('when-page-scrolling');
                             (0, _jquery2.default)(matchingHeaderLink).addClass('is-current-link');
                         }
                     },
@@ -11325,6 +11328,7 @@ var StickyHeader = function () {
                         if (direction = "up") {
                             var matchingHeaderLink = currentPageSection.getAttribute('data-matching-link');
                             that.headerLinks.removeClass('is-current-link');
+                            // that.headerLinks.removeClass('when-page-scrolling');
                             (0, _jquery2.default)(matchingHeaderLink).addClass('is-current-link');
                         }
                     },
