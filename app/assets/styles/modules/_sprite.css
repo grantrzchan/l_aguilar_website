@@ -2,99 +2,84 @@
 
 
         .icon{
-            background-image: url('/assets/images/sprites/sprite-ca684845.svg');
+            background-image: url('/assets/images/sprites/sprite-f2ce2040.svg');
         }
 
         .no-svg .icon{
-            background-image: url('/assets/images/sprites/sprite-ca684845.png');
+            background-image: url('/assets/images/sprites/sprite-f2ce2040.png');
         }
-.icon--clear-view-escapes {
-    width: 142.4px;
-    height: 59.53px;
-    background-position: 0 23.800451538796686%;
+.icon--chat {
+    width: 60px;
+    height: 60px;
+    background-position: 99.81754385964912% 0;
 }
 .icon--comment {
-    width: 64px;
-    height: 64px;
-    background-position: 0 99.84637096774195%;
+    width: 66px;
+    height: 66px;
+    background-position: 68.23655913978494% 71.55865921787709%;
 }
 .icon--diet {
-    width: 71.683px;
-    height: 64px;
-    background-position: 56.941271334498055% 48.233467741935485%;
+    width: 73.68px;
+    height: 66px;
+    background-position: 59.2547545333923% 34.687150837988824%;
+}
+.icon--envelope {
+    width: 59px;
+    height: 59px;
+    background-position: 99.46853146853147% 32.25806451612903%;
 }
 .icon--facebook {
-    width: 21.23px;
-    height: 42.01px;
-    background-position: 63.35758357123124% 22.25600948183266%;
-}
-.icon--fire {
-    width: 56px;
-    height: 64px;
-    background-position: 42.741237113402065% 74.03991935483872%;
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 72.8626037231563% 30.8920841832927%;
 }
 .icon--fitness {
-    width: 72.748px;
-    height: 64px;
-    background-position: 30.63642197686799% 48.233467741935485%;
-}
-.icon--globe {
-    width: 64px;
-    height: 64px;
-    background-position: 99.81766784452296% 0;
+    width: 74.75px;
+    height: 66px;
+    background-position: 31.829787234042552% 34.687150837988824%;
 }
 .icon--goal {
-    width: 64px;
-    height: 64px;
-    background-position: 0 74.03991935483872%;
+    width: 66px;
+    height: 66px;
+    background-position: 44.58064516129032% 71.55865921787709%;
 }
 .icon--idea {
-    width: 60.377px;
-    height: 64px;
-    background-position: 22.328982670616107% 74.03991935483872%;
+    width: 62.38px;
+    height: 66px;
+    background-position: 0 71.55865921787709%;
 }
 .icon--instagram {
-    width: 42.01px;
-    height: 42.01px;
-    background-position: 74.63523394209646% 22.25600948183266%;
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 94.51476793248945% 81.12841434897258%;
 }
 .icon--liliana_consulting {
-    width: 282.484px;
-    height: 60.089px;
+    width: 284.48px;
+    height: 62.09px;
     background-position: 0 0;
 }
 .icon--mail {
-    width: 64px;
-    height: 48px;
-    background-position: 50.31802120141343% 22.760984848484846%;
+    width: 66px;
+    height: 50px;
+    background-position: 0 99.53333333333333%;
 }
 .icon--measuring-tape {
-    width: 84.021px;
-    height: 64px;
-    background-position: 0 48.233467741935485%;
-}
-.icon--rain {
-    width: 64px;
-    height: 64px;
-    background-position: 99.81766784452296% 25.806451612903224%;
-}
-.icon--star {
-    width: 64px;
-    height: 64px;
-    background-position: 99.81766784452296% 51.61290322580645%;
+    width: 86.02px;
+    height: 66px;
+    background-position: 0 34.687150837988824%;
 }
 .icon--twitter {
-    width: 51.78px;
-    height: 42.06px;
-    background-position: 95.68592913759228% 71.12691709268726%;
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 97.68559851658539% 59.22165820642978%;
 }
 .icon--wifi {
-    width: 60px;
-    height: 64px;
-    background-position: 62.84912891986063% 74.03991935483872%;
+    width: 62px;
+    height: 66px;
+    background-position: 22.042402826855124% 71.55865921787709%;
 }
 .icon--youtube {
-    width: 34.75px;
-    height: 42px;
-    background-position: 73.16317053642915% 44.303333333333335%;
+    width: 36.75px;
+    height: 44px;
+    background-position: 21.41119221411192% 96.56218905472637%;
 }
