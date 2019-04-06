@@ -2,11 +2,11 @@
 
 
         .icon{
-            background-image: url('/assets/images/sprites/sprite-f2ce2040.svg');
+            background-image: url('../../assets/images/sprites/sprite-f2ce2040.svg');
         }
 
         .no-svg .icon{
-            background-image: url('/assets/images/sprites/sprite-f2ce2040.png');
+            background-image: url('../../assets/images/sprites/sprite-f2ce2040.png');
         }
 .icon--chat {
     width: 60px;
