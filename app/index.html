@@ -9,6 +9,8 @@
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
   <meta name="description" content="Your clarify. One trip away. We create soul restoring journeys that inspire you to be you.">
   <link rel="stylesheet" href="temp/styles/styles.css">
+  <!-- Trigger lazy loading of assets as soon as the page loads -->
+  <script src="/temp/scripts/Vendor.js"></script>
 </head>
 
 <body>
@@ -56,7 +58,7 @@
       <div class="wrapper">
         <h1 class="large-hero__title">Your health.</h1>
         <h2 class="large-hero__subtitle">One visit away.</h2>
-        <p class="large-hero__description">With over 24 years' of experience, we can help you live at your best.</p>
+        <p class="large-hero__description">With over 24 years' of experience in health management, we can help you live at your <strong>best.</strong></p>
         <p>
           <a href="#" class="btn btn--orange btn--large open-modal">Get Started Today</a>
         </p>
@@ -74,20 +76,20 @@
       </h3>
       <div class="wrapper wrapper--medium wrapper--b-margin">
         <!-- vw stands for  viewport width -->
-        <img sizes="(min-width: 970px) 640px, 100vw" srcset="assets/images/second.jpg 421w, assets/images/second-hi-dpi.jpg 842w"
+        <img class="lazyload" sizes="(min-width: 970px) 640px, 100vw" data-srcset="assets/images/second.jpg 421w, assets/images/second-hi-dpi.jpg 842w"
           alt="A healthy meal.">
       </div>
 
       <div class="row row--gutters">
         <div class="row__md-4 row__md-4--larger row__b-margin-until-medium">
           <picture>
-            <source sizes="404px" srcset="assets/images/hand.jpg 404w, assets/images/hand-hi-dpi.jpg 808w"
+            <source sizes="404px" data-srcset="assets/images/hand.jpg 404w, assets/images/hand-hi-dpi.jpg 808w"
               media="(min-width: 1010px)">
-            <source sizes="320px" srcset="assets/images/hand-portrait.jpg 382w, assets/images/hand-portrait-hi-dpi.jpg 764w"
+            <source sizes="320px" data-srcset="assets/images/hand-portrait.jpg 382w, assets/images/hand-portrait-hi-dpi.jpg 764w"
               media="(min-width: 800px)">
-            <source sizes="800px" srcset="assets/images/hand-landscape.jpg 800w, assets/images/hand-portrait-hi-dpi.jpg 1600w"
+            <source sizes="800px" data-srcset="assets/images/hand-landscape.jpg 800w, assets/images/hand-portrait-hi-dpi.jpg 1600w"
               media="(min-width: 799px)">
-            <img srcset="assets/images/hand-landscape-small.jpg 565w, assets/images/hand-landscape-small.jpg 565w"
+            <img class="lazyload" data-srcset="assets/images/hand-landscape-small.jpg 565w, assets/images/hand-landscape-small.jpg 565w"
               alt="Fruits in the palm of a hand">
           </picture>
         </div>
@@ -161,7 +163,7 @@
     </div>
   </div>
 
-  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials"
+  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials lazyload"
     data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
       <h2 class="section-title section-title--blue">
@@ -174,7 +176,7 @@
         <div class="row__lg-4">
           <div class="testimonial">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-jane-doe.jpg">
+              <img class="lazyload" sizes="160px" data-srcset="assets/images/testimonial-jane-doe.jpg">
             </div>
             <h3 class="testimonial__title">Jane Doe</h3>
             <h4 class="testimonial__subtitle">Client since 2015</h4>
@@ -190,7 +192,7 @@
         <div class="row__lg-4">
           <div class="testimonial">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-john-doe.jpg">
+              <img class="lazyload" sizes="160px" data-srcset="assets/images/testimonial-john-doe.jpg">
             </div>
             <h3 class="testimonial__title">John Doe</h3>
             <h4 class="testimonial__subtitle">Client since 2012</h4>
@@ -205,7 +207,7 @@
         <div class="row__lg-4">
           <div class="testimonial testimonial--last">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-christina-doe.jpg">
+              <img class="lazyload" sizes="160px" data-srcset="assets/images/testimonial-christina-doe.jpg">
             </div>
             <h3 class="testimonial__title">Christina Lopez</h3>
             <h4 class="testimonial__subtitle">Client since 2017</h4>
@@ -239,7 +241,7 @@
       </h2>
       <div class="wrapper wrapper--narrow">
         <p class="modal__description">
-          We will have an online order system in place soon. Until then, connect with us on any of the platforms below!
+          Queries? Connect with us on any of the platforms below!
         </p>
       </div>
       <!-- might want to use social icons elsewhere. Make this it's own block for BEM -->
